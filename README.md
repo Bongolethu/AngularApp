@@ -9,19 +9,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Please find my note under the  the [Development server] section and my initial [BR]
 [BR] :You have to be inside an Angular CLI project in order to use the serve command.
-cd dynamic-treeview
-[BR] :Please also run the below.
-npm install
+change directory to [dynamic-treeview]
+
+[BR] :Please also run the below command [npm install]
+
 [BR] : https://angular2-tree.readme.io/docs
+
 [BR] : To see data please make sure the api is running on the specified path by the service
        file treeview.service ['http://localhost:64686/api/values']
        
 
 ## Development server
 
-[BR] :You have to be inside an Angular CLI project in order to use the serve command.
-please run the below on your terminal
-cd dynamic-treeview
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
