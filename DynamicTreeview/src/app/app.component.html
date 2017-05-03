@@ -1,0 +1,13 @@
+<div>
+    <h1>Tree View Attempt</h1>
+    <div id="leftTree">
+        <span>Parent Tree</span>
+        <tree-root [nodes]="this.nodeData" (onFocus)="onEvent($event)">
+        </tree-root>
+    </div>
+    <div id="rightTree">
+        <span>Children Tree</span>
+        <tree-root [nodes]="this.childrenData">
+        </tree-root>
+    </div>
+</div>
