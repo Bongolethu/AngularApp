@@ -11,14 +11,22 @@ Please find my note under the  the [Development server] section and my initial [
 [BR] :You have to be inside an Angular CLI project in order to use the serve command.
 change directory to [dynamic-treeview]
 
-[BR] :Please also run the below command [npm install]
+[BR] :Please also run the command [npm install]
 
-[BR] : https://angular2-tree.readme.io/docs
+[BR] : Code First Instruction,
+     on Visual Studio navigate to :
 
-[BR] : To see data please make sure the api is running on the specified path by the service
-       file treeview.service ['http://localhost:64686/api/values']
+    1.  Tools->Nuget Package Manager->Package Manager Console
+
+    2. Select [TheProject.dal] under default projects of the Console then run the following
+    
+    PM>update-database
+
+
+
+[BR] : To see data please make sure the api is running on the specified path by the service file treeview.service ['http://localhost:64686/api/values'], please make sure the Service is the startup project
        
-
+[BR] : https://angular2-tree.readme.io/docs
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
