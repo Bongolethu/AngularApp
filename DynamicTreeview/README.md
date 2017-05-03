@@ -5,13 +5,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author Notes:
 
-Please find my note under the  the [Development server] section and my initial [BR]
+Please find my note under the  the [Development server] section and my initial [BR].
+
 [BR] :You have to be inside an Angular CLI project in order to use the serve command.
-cd dynamic-treeview
+      cd dynamic-treeview
+[BR] : Also run the below
+      npm install
+
 [BR] : https://angular2-tree.readme.io/docs
 [BR] : To see data please make sure the api is running on the specified path by the service
        file treeview.service ['http://localhost:64686/api/values']
-       
+
 
 ## Development server
 
