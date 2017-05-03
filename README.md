@@ -7,7 +7,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Author Notes:
 
-Please find my note under the  the [Development server] section and my initial [BR]
 [BR] :You have to be inside an Angular CLI project in order to use the serve command.
 change directory to [dynamic-treeview]
 
